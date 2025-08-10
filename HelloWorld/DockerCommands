@@ -1,0 +1,6 @@
+#commands to run a container#
+docker build -t hello-nginx .
+docker run -p 8080:80 --name hello-world hello-nginx
+
+#Once container build#
+Then visit http://localhost/ in your browser.
